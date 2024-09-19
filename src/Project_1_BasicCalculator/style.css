@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set body to use Flexbox */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    background: linear-gradient(135deg, #cfd9df 0%, #e2ebf0 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fancy container with shadow, border radius, and gradient */
+.Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 20px;
+    height: auto;
+    width: 500px;
+    gap: 12px;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    transition: transform 0.3s ease;
+}
+
+.Container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.inputs {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.inputs:focus {
+    border-color: #7fbdf7;
+    outline: none;
+    box-shadow: 0 0 8px rgba(127, 189, 247, 0.5);
+}
+
+.operations {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    width: 80px;
+    height: 35px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    background-color: #3e8e41;
+}
+
+.Result {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
