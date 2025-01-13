@@ -1,7 +1,6 @@
 import { useState } from "react";
 import './style.css';
 
-
 export default function Calculator(){
     const [input1,setInput1]=useState('');
     const [input2,setInput2]=useState('');
@@ -30,7 +29,6 @@ export default function Calculator(){
             setResult(Number(input1)*Number(input2));
         }
     };
-
 
     const handleDivision=()=>{
         if(input1 === '' || input2===''){
