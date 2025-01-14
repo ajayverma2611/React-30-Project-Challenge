@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import RandomColor from './components/Project_3_RandomColor/index.jsx';
+import StarRating from './components/Project_4_starRating';
+// import RandomColor from './components/Project_3_RandomColor/index.jsx';
+// import QRCodeGenerator from './components/Project_8_QRGenerator/index.jsx';
 // import Calculator from './components/Project_1_BasicCalculator/index.jsx';
 // import Accordian from './components/Project_2_Accordian/index.jsx';
 // import LoadMoreButton from './components/Load More Button/index.jsx';
@@ -19,7 +21,11 @@ function App() {
 
         {/* {<TreeView menus={menus}/>} */}
 
-        {<RandomColor/>}
+        {/* {<RandomColor/>} */}
+
+        {/* {<QRCodeGenerator/>} */}
+
+        {<StarRating/>}
 
     </div>
   );
