@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
-import StarRating from './components/Project_4_starRating';
+
+// import SearchUserApi from './components/Project_14_Search_Auto_Complete';
+import ImageSlider from './components/Project_5_ImageSlider';
+// import StarRating from './components/Project_4_starRating';/
 // import ScrollIndicators from './components/Project_10_ScrollIndicators';
 // import TabTest from './components/Project_11_customTabs/tab-test';
 // import ModalTest from './components/Project_12_showModalPopUp/modal-test';
@@ -30,7 +33,7 @@ function App() {
 
         {/* {<QRCodeGenerator/>} */}
 
-        {<StarRating/>}
+        {/* {<StarRating/>} */}
 
         {/* {<LightDarkMode/>} */}
 
@@ -41,6 +44,10 @@ function App() {
         {/* {<ModalTest/>} */}
 
         {/* {<GithubProfileFinder />} */}
+
+        {/* {<SearchUserApi />} */}
+
+        {<ImageSlider url={`https://picsum.photos/v2/list`} page={"1"} List={"10"}/>}
 
     </div>
   );
