@@ -1,8 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
+// import AppMenu from './components/Food menu';
+// import FeatureFlags from './components/Feature-flag';
+// import FeatureFlagGlobalState from './components/Feature-flag/context';
+// import UseFetchTest from './components/Project_17_UseFetchHook/test';
+// import UseOnClickOutSideTest from './components/Project_18_UseOutSideClick/test';
+// import UseWindowResizeTest from './components/Project_19_UseWindowResizeHook/test';
+// import ScrolToBottomTop from './components/Project_20_Scroll_top_and_bottom';
+// import ScrollTOLevel from './components/Project_21_ScrollToLevel';
 
+// import TicTacToe from './components/Project_15_TicTakToe';
 // import SearchUserApi from './components/Project_14_Search_Auto_Complete';
-import ImageSlider from './components/Project_5_ImageSlider';
+// import ImageSlider from './components/Project_5_ImageSlider';
 // import StarRating from './components/Project_4_starRating';/
 // import ScrollIndicators from './components/Project_10_ScrollIndicators';
 // import TabTest from './components/Project_11_customTabs/tab-test';
@@ -14,8 +23,8 @@ import ImageSlider from './components/Project_5_ImageSlider';
 // import Calculator from './components/Project_1_BasicCalculator/index.jsx';
 // import Accordian from './components/Project_2_Accordian/index.jsx';
 // import LoadMoreButton from './components/Load More Button/index.jsx';
-// import menus from './components/Project_5_TreeView/data.js';
-// import TreeView from './components/Project_5_TreeView/index.jsx';
+import menus from './components/Project_6_TreeView/data.js';
+import TreeView from './components/Project_6_TreeView/index.jsx';
 
 function App() {
   return (
@@ -27,7 +36,7 @@ function App() {
 
         {/* {<LoadMoreButton />} */}
 
-        {/* {<TreeView menus={menus}/>} */}
+        {<TreeView menus={menus}/>}
 
         {/* {<RandomColor/>} */}
 
@@ -47,7 +56,26 @@ function App() {
 
         {/* {<SearchUserApi />} */}
 
-        {<ImageSlider url={`https://picsum.photos/v2/list`} page={"1"} List={"10"}/>}
+        {/* {<ImageSlider url={`https://picsum.photos/v2/list`} page={"1"} List={"10"}/>} */}
+
+        {/* {<TicTacToe />} */}
+
+        {/* {<FeatureFlagGlobalState>
+          <FeatureFlags />
+          </FeatureFlagGlobalState>} */}
+
+        {/* {<UseFetchTest />} */}
+
+
+        {/* {<UseOnClickOutSideTest />} */}
+
+        {/* {<UseWindowResizeTest />} */}
+        
+        {/* <ScrolToBottomTop /> */}
+
+        {/* <ScrollTOLevel /> */}
+
+        {/* {<AppMenu/>} */}
 
     </div>
   );
